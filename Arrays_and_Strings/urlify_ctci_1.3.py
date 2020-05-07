@@ -3,7 +3,7 @@ Write a method to replace all spaces in string with "%20"
 input = "Mr John Smith    ", 12
 output = "Mr%20John%20Smith
 
-Approach - Use
+Approach - Remove all trailing white spaces using string split and then replace all spaces with "%20"
 Time Complexity - O(N)
 Space Complexity - O(N)
 """
